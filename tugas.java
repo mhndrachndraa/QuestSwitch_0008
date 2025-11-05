@@ -24,5 +24,6 @@ public class tugas {
         System.out.println("Masukkan nilai Rekayasa Perangkat Lunak: ");
         rpl = can.nextFloat();
 
+        rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
     }
 }
