@@ -40,6 +40,17 @@ public class tugas {
         System.out.println("Total Nilai: " + totalNilai);
         System.out.println("Rata-rata Nilai: " + rataRata);
 
-        
+         if (rataRata >= 93.75) {
+            predikat = "A (Sangat Baik)";
+        } else if (rataRata >= 87.5) {
+            predikat = "AB (Baik Sekali)";
+        } else if (rataRata >= 75) {
+            predikat = "B (Baik)";
+        } else if (rataRata >= 62.5) {
+            predikat = "BC (Cukup)";
+        } else {
+            predikat = "C (Kurang)";
+
+        }
     }
 }
