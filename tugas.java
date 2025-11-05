@@ -25,5 +25,20 @@ public class tugas {
         rpl = can.nextFloat();
 
         rataRata = (strukturData + pbo + basisData + algoritma + rpl) / 5;
+
+        System.out.print("1. Nilai Struktur Data ="+ strukturData); 
+        can.nextDouble(); 
+
+        System.out.print("2. Nilai Pemograman Berorientasi Objek ="+ pbo); 
+        can.nextDouble(); 
+
+        System.out.print("3. Nilai Basis Data = "+ basisData); 
+        can.nextDouble(); 
+        
+        System.out.print("4. Nilai Algoritma dan Pemrograman = "+ algoritma); 
+        can.nextDouble(); 
+        
+        System.out.print("5. Nilai RPL = "+ rpl); 
+        can.nextDouble();
     }
 }
