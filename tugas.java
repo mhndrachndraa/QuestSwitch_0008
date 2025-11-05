@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class tugas {
     public static void main(String[] args) {
-        Scanner can = new Scanner(System.in);
+        Scanner ns = new Scanner(System.in);
 
         float strukturData, pbo, basisData, algoritma, rpl, rataRata, matakuliah;
         String predikat;
@@ -11,19 +11,19 @@ public class tugas {
 
         System.out.println("=== SISTEM SELEKSI ASISTEN DOSEN ===");
         System.out.println("Masukkan nilai Struktur Data: ");
-        strukturData = can.nextFloat();
+        strukturData = ns.nextFloat();
 
         System.out.println("Masukkan nilai Pemrograman Berorientasi Objek: ");
-        pbo = can.nextFloat();
+        pbo = ns.nextFloat();
 
         System.out.println("Masukkan nilai Basis Data: ");
-        basisData = can.nextFloat();
+        basisData = ns.nextFloat();
 
         System.out.println("Masukkan nilai Algoritma dan Pemrograman: ");
-        algoritma = can.nextFloat();
+        algoritma = ns.nextFloat();
 
         System.out.println("Masukkan nilai Rekayasa Perangkat Lunak: ");
-        rpl = can.nextFloat();
+        rpl = ns.nextFloat();
 
         System.out.print("1. Nilai Struktur Data =" + strukturData);
         System.out.print("2. Nilai Pemograman Berorientasi Objek =" + pbo);
@@ -51,7 +51,7 @@ public class tugas {
 
             System.out.println("Predikat Anda: " + predikat);
 
-            can.close();
+            ns.close();
 
         }
     }
